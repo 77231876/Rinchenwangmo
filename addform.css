@@ -1,0 +1,28 @@
+ .name {
+
+    width: 1100px ;
+    padding-left: 600px;
+
+}
+
+.date {
+    width: 1100px ;
+    padding-left: 600px;
+
+}
+
+.email {
+    width: 1100px ;
+    padding-left: 600px;
+
+}
+.button{
+    padding-left: 600px;
+}
+legend{
+text-align: center;
+}
+
+ .back{
+    padding-left: 50px;
+}
