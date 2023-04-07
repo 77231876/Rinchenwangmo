@@ -2,55 +2,42 @@
 <html>
     <head>
         <title>EMPLOYEE MANAGMENT</title>
+        <link href="update.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-   
     </head>
-    <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="home.html">BACK</a>
-                  </li>
-             
-               
-              </div>
-            </div>
-          </nav>
+<body>
+     
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <li class="back">
+                <a class="nav-link active" aria-current="page" href="home.html">BACK</a>
+              </li>
+          </div>
+        </div>
+      </nav>
 
-        <table class="table" >
-            <thead>
-              <tr class="table-primary">
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Registered Date</th>
-                <th scope="col">Email</th>
-                <th scope="col">Edit</th>
-                <th scope="col">Remove</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="table-danger">
-                <th scope="row">1</th>
-                <td>Pema</td>
-                <td>12/3/2000</td>
-                <td>It</td>
-                <td><a href="addform.html">UPDATE</a></td>
-              <td><a href="delete.html>">DELETE</a></td>
-              </tr>
-              <tr class="table-danger">
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              <td><a href="addform.html">UPDATE</a></td>
-              <td><a href="delete.html>">DELETE</a></td>
-            </tr>
-            </tbody>
-          </table>
+      <legend><b>ENTER EMPLOYEE ID</b></legend>
+<br>
 
-    </body>
+      <form class="form">
+
+<div class="id">
+    <label class="form-label">ID</label>
+    <input type="number" class="form-control">
+    <div id ="nameHelp" class="form-text">Enter  the id of employee.</div>
+
+</div>
+<br>
+       
+      </form>
+      <div class="button">
+        <button onclick="location.href='addform.html'" type="submit" class="btn btn-primary">Submit</button>
+    </div>
+      
+</body>
+</html>
