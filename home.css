@@ -1,9 +1,10 @@
 
+  
   .table {
     font-size: 15px;
     font-family:sans-serif;
     margin: 0 auto;
-    max-width: 600px; /* Set the maximum width of the table */
+    max-width: 700px; /* Set the maximum width of the table */
     width: 100%; /* Set the width of the table to 100% to make it responsive */
   }
 
