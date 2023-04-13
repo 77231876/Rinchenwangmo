@@ -1,17 +1,60 @@
-.id {
-
-    width: 1100px ;
-    padding-left: 600px;
-    text-align: center;
-
-}
-.button{
-    padding-left: 800px;
-}
-legend{
-text-align: center;
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
- .back{
-    padding-left: 50px;
+legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.form-text {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding-left: 90px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+.button {
+  text-align: center;
 }
